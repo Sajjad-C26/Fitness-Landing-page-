@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FitHome - Professional Fitness & Yoga Training</title>
+    <!-- Tailwind CSS CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-slate-50 text-slate-800 font-sans">
+
+    <!-- Header / Navbar -->
+    <header class="sticky top-0 z-50 bg-white/80 backdrop-blur-md shadow-sm">
+        <div class="max-w-7xl mx-auto px-6 py-4 flex justify-between items-center">
+            <div class="text-2xl font-black text-indigo-600 tracking-wider">Fit<span class="text-slate-900">Home</span></div>
+            <nav class="hidden md:flex space-x-8 font-medium">
+                <a href="#hero" class="hover:text-indigo-600 transition">Home</a>
+                <a href="#about" class="hover:text-indigo-600 transition">About Us</a>
+                <a href="#testimonials" class="hover:text-indigo-600 transition">Testimonials</a>
+            </nav>
+            <a href="#signup" class="bg-indigo-600 text-white px-5 py-2.5 rounded-full font-medium shadow-md hover:bg-indigo-700 transition">Sign Up Now</a>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="hero" class="relative bg-gradient-to-r from-indigo-900 via-indigo-800 to-slate-900 text-white py-24 px-6">
+        <div class="max-w-5xl mx-auto text-center">
+            <span class="bg-indigo-500/30 text-indigo-300 text-xs sm:text-sm font-semibold px-4 py-1.5 rounded-full uppercase tracking-widest border border-indigo-400/30">Your Personal Fitness Guide</span>
+            <h1 class="text-4xl sm:text-6xl font-extrabold mt-6 mb-6 leading-tight">Get Fit at Home <br><span class="text-indigo-400">Transform Your Body & Mind</span></h1>
+            <p class="text-lg sm:text-xl text-slate-300 max-w-2xl mx-auto mb-10">Join expert-led home workout and yoga sessions tailored to help you build strength, flexibility, and a healthier lifestyle without stepping out.</p>
+            <div class="flex flex-col sm:flex-row justify-center gap-4">
+                <a href="#signup" class="bg-indigo-500 text-white px-8 py-3.5 rounded-full font-bold shadow-lg hover:bg-indigo-600 transition text-lg">Start Free Trial</a>
+                <a href="#about" class="bg-white/10 border border-white/20 px-8 py-3.5 rounded-full font-bold text-white hover:bg-white/20 transition text-lg">Learn More</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Us Section -->
+    <section id="about" class="py-20 px-6 max-w-6xl mx-auto">
+        <div class="grid md:grid-cols-2 gap-12 items-center">
+            <div>
+                <span class="text-indigo-600 font-bold uppercase tracking-wider text-sm">About The Trainer</span>
+                <h2 class="text-3xl sm:text-4xl font-extrabold mt-2 mb-6">Meet Alex Morgan, Your Expert Fitness & Yoga Coach</h2>
+                <p class="text-slate-600 mb-4 leading-relaxed">With over 8+ years of professional experience in personal training and mindful yoga instruction, I have helped thousands of clients achieve their body goals from the comfort of their living rooms.</p>
+                <p class="text-slate-600 mb-6 leading-relaxed">Our customized programs focus on sustainable habits, correct posture, core strength, and mental wellness. No heavy gym equipment needed—just dedication and guidance.</p>
+                <div class="grid grid-cols-2 gap-4 font-semibold text-slate-700">
+                    <div class="flex items-center gap-2">✅ 100+ Home Workouts</div>
+                    <div class="flex items-center gap-2">✅ Personalized Diet Plan</div>
+                    <div class="flex items-center gap-2">✅ Live Yoga Classes</div>
+                    <div class="flex items-center gap-2">✅ 24/7 Coach Support</div>
+                </div>
+            </div>
+            <div class="bg-indigo-100 rounded-3xl p-8 text-center border-2 border-indigo-200">
+                <div class="h-80 bg-indigo-200 rounded-2xl flex items-center justify-center text-indigo-700 font-bold text-xl shadow-inner">
+                    [ Trainer Photo / Graphic Placeholder ]
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section id="testimonials" class="bg-slate-100 py-20 px-6">
+        <div class="max-w-6xl mx-auto text-center mb-16">
+            <span class="text-indigo-600 font-bold uppercase tracking-wider text-sm">Success Stories</span>
+            <h2 class="text-3xl sm:text-4xl font-extrabold mt-2">Loved By Our Community</h2>
+        </div>
+        <div class="grid md:grid-cols-3 gap-8 max-w-6xl mx-auto">
+            <!-- Card 1 -->
+            <div class="bg-white p-8 rounded-2xl shadow-sm border border-slate-200">
+                <p class="text-slate-600 italic mb-6">"FitHome completely changed my routine. I lost 5 kgs in 2 months just following Alex's yoga and core sessions from home!"</p>
+                <h4 class="font-bold text-slate-900">Sarah Jenkins</h4>
+                <span class="text-xs text-slate-400">Marketing Executive</span>
+            </div>
+            <!-- Card 2 -->
+            <div class="bg-white p-8 rounded-2xl shadow-sm border border-slate-200">
+                <p class="text-slate-600 italic mb-6">"The flexibility of working out whenever I want with professional guidance is amazing. Highly recommended!"</p>
+                <h4 class="font-bold text-slate-900">David Miller</h4>
+                <span class="text-xs text-slate-400">Software Engineer</span>
+            </div>
+            <!-- Card 3 -->
+            <div class="bg-white p-8 rounded-2xl shadow-sm border border-slate-200">
+                <p class="text-slate-600 italic mb-6">"Clear instructions, zero equipment hassle, and great motivation. Best fitness decision I've made."</p>
+                <h4 class="font-bold text-slate-900">Anika Rahman</h4>
+                <span class="text-xs text-slate-400">Designer</span>
+            </div>
+        </div>
+    </section>
+
+    <!-- Sign Up Section -->
+    <section id="signup" class="py-20 px-6 bg-white">
+        <div class="max-w-xl mx-auto bg-indigo-900 text-white rounded-3xl p-8 sm:p-12 shadow-xl text-center">
+            <h2 class="text-3xl font-extrabold mb-4">Start Your Transformation Today</h2>
+            <p class="text-indigo-200 mb-8">Sign up now to get instant access to all home workout guides and live yoga sessions.</p>
+            <form class="space-y-4" onsubmit="event.preventDefault(); alert('Thank you for signing up!');">
+                <input type="text" placeholder="Your Full Name" required class="w-full px-4 py-3 rounded-xl bg-indigo-800 border border-indigo-700 text-white placeholder-indigo-300 focus:outline-none focus:ring-2 focus:ring-indigo-400">
+                <input type="email" placeholder="Your Email Address" required class="w-full px-4 py-3 rounded-xl bg-indigo-800 border border-indigo-700 text-white placeholder-indigo-300 focus:outline-none focus:ring-2 focus:ring-indigo-400">
+                <button type="submit" class="w-full bg-white text-indigo-900 font-bold py-3.5 rounded-xl hover:bg-indigo-50 transition shadow-md">Sign Up Now</button>
+            </form>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-slate-900 text-slate-400 py-8 text-center text-sm border-t border-slate-800">
+        <p>&copy; 2026 FitHome. All rights reserved. Designed for Fitness Professionals.</p>
+    </footer>
+
+</body>
+</html>
